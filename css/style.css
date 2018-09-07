@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+body {
+    text-align: center;
+    font-family: 'Noto Serif JP', sans-serif;
+    width: auto;
+}
+
+header {
+    padding-bottom: 70px;
+}
+
+.secondParagraph {
+    background-color: darkgrey;
+    padding-top: 40px;
+}
+
+.image {
+    background-color: slategray;
+    height: 40vh;
+}
+
+.list {
+    height: 30vh;
+    padding-top: 40px;
+}
+
+img {
+    float: left;
+    padding: 30px;
+}
