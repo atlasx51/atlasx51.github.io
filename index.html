@@ -39,20 +39,29 @@
                     <div class="btn-more js-btn-more visible-xs">
                         <a href="#"><i class="icon-dots-three-vertical "></i></a>
                     </div>
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar"></button>
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
                     <a class="navbar" href="index.html" title="">CIT-82</a>
                 </div>
 
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="active"><a href="index.html">Home</a></li>
-                        <!-- <li><a href="subpage.html">Subpage</a></li> -->
-                        <li><a href="lectures.html">Lectures</a></li>
+
+                        <li>
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle">Lectures</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="courses.html">Courses</a></li>
+                                <li><a href="course-single.html">Course Single</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="news.html">News</a></li>
+                            </ul>
+                        </li>
                         <li><a href="handson.html">Hands On</a></li>
                         <li><a href="currenttopics.html">Current Topics</a></li>
                     </ul>
@@ -61,42 +70,21 @@
             </div>
         </nav>
 
-        <section class="flexslider">
+        <section>
             <ul class="slides">
                 <li style="background-image: url(img/oab.jpg)" class="overlay">
-                    <div class="container">
+                    <div class="jumbotron">
                         <div class="row">
                             <div class="col-md-8 col-md-offset-2">
-                                <div class="probootstrap-slider-text text-center">
+                                <div class="text-center">
                                     <h1 class="probootstrap-heading probootstrap-animate">Welcome To CIT-82</h1>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </li>
-                <li style="background-image:url(img/slider_2.jpg)" class="overlay">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-8 col-md-offset-2">
-                                <div class="probootstrap-slider-text text-center">
-                                    <h1 class="probootstrap-heading probootstrap-animate">This is a Review of CIT-82</h1>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                </li>
-                <li style="background-image: url(img/slider_3.jpg)" class="overlay">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-8 col-md-offset-2">
-                                <div class="probootstrap-slider-text text-center">
-                                    <h1 class="probootstrap-heading probootstrap-animate">Enjoy the topics learned in CIT-82</h1>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
+
             </ul>
         </section>
 
