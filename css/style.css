@@ -3200,3 +3200,7 @@ only screen and (min-resolution: 2dppx) {
         width: 100%;
     }
 }
+
+.markdownSection {
+    background-color: red;
+}
