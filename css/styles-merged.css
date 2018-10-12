@@ -5949,7 +5949,6 @@ a.badge:hover {
     background-image: url("../img/libraryfcc.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: max-width: 100%;
 }
 
 .markdownSection {
